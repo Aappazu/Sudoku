@@ -19,6 +19,8 @@ public class SudokuVerifier {
 			else{
 				result = 0;
 			}
+			
+			i++;
 		}
 		
 		return result;
