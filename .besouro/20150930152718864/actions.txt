@@ -1,0 +1,11 @@
+FileOpenedAction 1443616039174 TestSudokuVerifier.java 216 1 1 0
+RefactoringAction 1443616582783 TestSudokuVerifier.java RENAME test()=><initializer /1> null
+RefactoringAction 1443616590300 TestSudokuVerifier.java RENAME <initializer /1>=>void contains() METHOD
+RefactoringAction 1443616591316 TestSudokuVerifier.java RENAME contains()=>void contains81() METHOD
+RefactoringAction 1443616593832 TestSudokuVerifier.java RENAME contains81()=>void contains81Characters() METHOD
+RefactoringAction 1443616887815 SudokuVerifier.java ADD int characterCount() METHOD
+RefactoringAction 1443616894347 SudokuVerifier.java RENAME characterCount()=>int characterCount(String) METHOD
+RefactoringAction 1443617087955 TestSudokuVerifier.java RENAME contains81Characters()=>void checkIfCharacterPositive() METHOD
+RefactoringAction 1443617159335 SudokuVerifier.java RENAME characterCount(String)=>int characterPositive(String) METHOD
+RefactoringAction 1443617240721 TestSudokuVerifier.java RENAME checkIfCharacterPositive()=>void checkIfCharactersPositive() METHOD
+EditAction 1443617241829 TestSudokuVerifier.java 312 1 0 0
