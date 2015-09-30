@@ -7,16 +7,21 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	public int charactersPositive(String candidateSolution){
+	public static int charactersPositive(String candidateSolution){
 		
+		int result = 0;
 		
 		for(int i = 0; i < candidateSolution.length(); i++){
-			if(candidateSolution.charAt(i) < 0){
-				return -1;
+			if(candidateSolution.charAt(i) == '-'){
+				result = -1;
 			}
 			else{
-				return 0;
+				result = 0;
 			}
 		}
+		
+		return result;
+		
+		
 	}
 }
