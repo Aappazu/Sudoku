@@ -26,4 +26,15 @@ public class SudokuVerifier {
 		return result;
 		
 	}
+	
+	public static int checkIfDigitsTwiceInGlobalRow(String candidateSolution){
+		
+		int result = 0;
+		int i = 0;
+		
+		while(i < candidateSolution.length() && result != -3){
+			if(candidateSolution.charAt(i) )
+		}
+		
+	}
 }
