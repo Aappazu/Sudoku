@@ -48,3 +48,6 @@ EditAction 1443617908748 SudokuVerifier.java 516 2 5 0
 UnitTestCaseAction 1443617915490 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443617915492 TestSudokuVerifier.checkIfCharactersPositive OK
 EditAction 1443617925565 TestSudokuVerifier.java 328 1 2 1
+UnitTestCaseAction 1443617928827 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443617928828 TestSudokuVerifier FAIL
+EditAction 1443617932676 TestSudokuVerifier.java 328 1 2 1
