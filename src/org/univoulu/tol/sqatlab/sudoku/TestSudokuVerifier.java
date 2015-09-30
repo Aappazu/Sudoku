@@ -9,11 +9,20 @@ public class TestSudokuVerifier {
 	
 	// returns -1 if candidateSolution contains - character, else 0
 	@Test
-	public void checkIfCharactersPositive() {
+	public void checkCharactersPositive() {
 		
 		String candidateSolution = "009134";
 		
 		assertEquals(0, SudokuVerifier.charactersPositive(candidateSolution));
+	}
+	
+	// returns -1 if candidateSolution contains - character, else 0
+	@Test
+	public void checkCharactersIncludingMinus() {
+		
+		String candidateSolution = "009134-";
+		
+		assertEquals(-1, SudokuVerifier.charactersPositive(candidateSolution));
 	}
 
 }

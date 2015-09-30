@@ -62,3 +62,11 @@ UnitTestSessionAction 1443617944711 TestSudokuVerifier OK
 UnitTestCaseAction 1443617948062 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443617948062 TestSudokuVerifier OK
 EditAction 1443618007251 TestSudokuVerifier.java 396 1 2 1
+UnitTestCaseAction 1443618009128 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618009128 TestSudokuVerifier OK
+RefactoringAction 1443618101512 TestSudokuVerifier.java RENAME checkIfCharactersPositive()=>void checkCharactersPositive() METHOD
+RefactoringAction 1443618111023 TestSudokuVerifier.java ADD void checkCharactersPositive()/2 METHOD
+RefactoringAction 1443618116030 TestSudokuVerifier.java RENAME checkCharactersPositive()/2=>void checkCharactersNegative() METHOD
+RefactoringAction 1443618124039 TestSudokuVerifier.java RENAME checkCharactersNegative()=>void checkCharactersIncluding() METHOD
+RefactoringAction 1443618127046 TestSudokuVerifier.java RENAME checkCharactersIncluding()=>void checkCharactersIncludingMinus() METHOD
+EditAction 1443618138146 TestSudokuVerifier.java 647 2 4 2
