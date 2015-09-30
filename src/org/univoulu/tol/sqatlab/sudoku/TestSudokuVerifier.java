@@ -8,7 +8,9 @@ public class TestSudokuVerifier {
 
 	@Test
 	public void checkIfCharactersPositive() {
-		String candidateSolution = "-109-8";
+		
+		candidateSolution = "00905-1";
+		
 		assertEquals(0, SudokuVerifier.charactersPositive(candidateSolution));
 	}
 
