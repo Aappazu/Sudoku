@@ -28,7 +28,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void sameDigitNotTwiceInGlobalRow(){
 		
-		String candidateSolution = "123456789";
+		String candidateSolution = "123456781";
 		
 		assertEquals(0, SudokuVerifier.checkIfDigitsTwiceInGlobalRow(candidateSolution));
 				
