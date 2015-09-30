@@ -6,6 +6,8 @@ import org.junit.Test;
 
 public class TestSudokuVerifier {
 
+	
+	// returns -1 if candidateSolution contains - character, else 0
 	@Test
 	public void checkIfCharactersPositive() {
 		
