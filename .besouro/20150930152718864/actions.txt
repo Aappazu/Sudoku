@@ -173,3 +173,9 @@ EditAction 1443620737079 TestSudokuVerifier.java 860 3 6 3
 UnitTestCaseAction 1443620739198 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443620739198 TestSudokuVerifier FAIL
 EditAction 1443620741048 TestSudokuVerifier.java 860 3 6 3
+UnitTestCaseAction 1443620743656 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443620743656 TestSudokuVerifier OK
+RefactoringAction 1443620849732 TestSudokuVerifier.java ADD void sameDigitNotTwiceInGlobalRow()/2 METHOD
+RefactoringAction 1443620854239 TestSudokuVerifier.java RENAME sameDigitNotTwiceInGlobalRow()/2=>void sameDigitTwiceInGlobalRow() METHOD
+RefactoringAction 1443620855246 TestSudokuVerifier.java RENAME sameDigitTwiceInGlobalRow()=>void sameDigitIsTwiceInGlobalRow() METHOD
+EditAction 1443620864311 TestSudokuVerifier.java 1063 4 8 4
