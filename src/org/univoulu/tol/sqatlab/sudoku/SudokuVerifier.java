@@ -34,7 +34,8 @@ public class SudokuVerifier {
 		int j = 0;
 		
 		while(i < candidateSolution.length() && i < 9 &&  result != -3){
-			for(j = 0; j < 9; j++){
+			j = i + 1;
+			for(while j < 9){
 				if(candidateSolution.charAt(i) == candidateSolution.charAt(j)){
 					result = -3;
 				}
