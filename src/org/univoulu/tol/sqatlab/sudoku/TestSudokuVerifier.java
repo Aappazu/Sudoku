@@ -20,7 +20,7 @@ public class TestSudokuVerifier {
 	@Test
 	public void checkCharactersIncludingMinus() {
 		
-		String candidateSolution = "9134";
+		String candidateSolution = "91340";
 		
 		assertEquals(-1, SudokuVerifier.charactersPositive(candidateSolution));
 	}
