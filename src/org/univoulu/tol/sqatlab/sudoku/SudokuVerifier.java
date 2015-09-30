@@ -13,7 +13,7 @@ public class SudokuVerifier {
 		int i = 0;
 		
 		while(i < candidateSolution.length() && result != -1){
-			if(candidateSolution.charAt(i) < 49 && candidateSolution.charAt(i) > 57){
+			if(candidateSolution.charAt(i) < 49 || candidateSolution.charAt(i) > 57){
 				result = -1;
 			}
 			else{
