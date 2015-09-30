@@ -30,7 +30,7 @@ public class TestSudokuVerifier {
 		
 		String candidateSolution = "123456789";
 		
-		assertEquals(0, SudokuVerifier.checkIfDigitsTwiceInGlobalRow());
+		assertEquals(0, SudokuVerifier.checkIfDigitsTwiceInGlobalRow(candidateSolution));
 				
 	}
 

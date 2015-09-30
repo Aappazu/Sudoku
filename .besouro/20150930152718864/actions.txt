@@ -143,3 +143,13 @@ RefactoringAction 1443619433266 SudokuVerifier.java RENAME checkIfDigitsTwice=>i
 RefactoringAction 1443619435772 SudokuVerifier.java RENAME checkIfDigitsTwiceIn=>static int checkIfDigitsTwiceInGlobalRow() METHOD
 RefactoringAction 1443619440778 SudokuVerifier.java RENAME checkIfDigitsTwiceInGlobalRow()=>static int checkIfDigitsTwiceInGlobalRow(String) METHOD
 EditAction 1443619532225 SudokuVerifier.java 786 3 5 0
+CompilationAction 1443619532470 SudokuVerifier.java
+CompilationAction 1443619532470 SudokuVerifier.java
+CompilationAction 1443619532470 TestSudokuVerifier.java
+CompilationAction 1443619671527 SudokuVerifier.java
+CompilationAction 1443619671527 SudokuVerifier.java
+CompilationAction 1443619671682 SudokuVerifier.java
+CompilationAction 1443619671682 SudokuVerifier.java
+CompilationAction 1443620216373 SudokuVerifier.java
+CompilationAction 1443620216373 SudokuVerifier.java
+EditAction 1443620310056 TestSudokuVerifier.java 860 3 6 3
