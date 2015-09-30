@@ -6,4 +6,17 @@ public class SudokuVerifier {
 		// returns 1 if the candidate solution is correct
 		return 0;
 	}
+	
+	public int charactersPositive(String candidateSolution){
+		
+		
+		for(int i = 0; i < candidateSolution.length(); i++){
+			if(candidateSolution.charAt(i) < 0){
+				return -1;
+			}
+			else{
+				return 0;
+			}
+		}
+	}
 }

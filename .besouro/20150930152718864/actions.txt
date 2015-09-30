@@ -9,3 +9,6 @@ RefactoringAction 1443617087955 TestSudokuVerifier.java RENAME contains81Charact
 RefactoringAction 1443617159335 SudokuVerifier.java RENAME characterCount(String)=>int characterPositive(String) METHOD
 RefactoringAction 1443617240721 TestSudokuVerifier.java RENAME checkIfCharacterPositive()=>void checkIfCharactersPositive() METHOD
 EditAction 1443617241829 TestSudokuVerifier.java 312 1 0 0
+CompilationAction 1443617242246 TestSudokuVerifier.java
+CompilationAction 1443617242246 TestSudokuVerifier.java
+EditAction 1443617245343 SudokuVerifier.java 427 2 2 0
