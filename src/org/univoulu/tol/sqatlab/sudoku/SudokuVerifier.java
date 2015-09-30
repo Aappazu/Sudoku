@@ -10,8 +10,9 @@ public class SudokuVerifier {
 	public static int charactersPositive(String candidateSolution){
 		
 		int result = 0;
+		int i = 0;
 		
-		for(int i = 0; i < candidateSolution.length(); i++){
+		while(i < candidateSolution.length() && result != -1){
 			if(candidateSolution.charAt(i) == '-'){
 				result = -1;
 			}
