@@ -70,3 +70,8 @@ RefactoringAction 1443618116030 TestSudokuVerifier.java RENAME checkCharactersPo
 RefactoringAction 1443618124039 TestSudokuVerifier.java RENAME checkCharactersNegative()=>void checkCharactersIncluding() METHOD
 RefactoringAction 1443618127046 TestSudokuVerifier.java RENAME checkCharactersIncluding()=>void checkCharactersIncludingMinus() METHOD
 EditAction 1443618138146 TestSudokuVerifier.java 647 2 4 2
+UnitTestCaseAction 1443618139961 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618139962 TestSudokuVerifier OK
+UnitTestCaseAction 1443618201127 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618201129 TestSudokuVerifier OK
+EditAction 1443618311554 SudokuVerifier.java 552 2 5 0
