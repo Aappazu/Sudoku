@@ -22,6 +22,5 @@ public class SudokuVerifier {
 		
 		return result;
 		
-		
 	}
 }
