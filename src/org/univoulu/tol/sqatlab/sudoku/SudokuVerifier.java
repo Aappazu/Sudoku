@@ -35,13 +35,14 @@ public class SudokuVerifier {
 		
 		while(i < candidateSolution.length() && i < 9 &&  result != -3){
 			j = i + 1;
-			for(while j < 9){
+			while(j < 9){
 				if(candidateSolution.charAt(i) == candidateSolution.charAt(j)){
 					result = -3;
 				}
 				else{
 					result = 0;
 				}
+				j++;
 			}
 			i++;
 		}
