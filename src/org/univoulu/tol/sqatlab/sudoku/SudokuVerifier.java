@@ -33,7 +33,7 @@ public class SudokuVerifier {
 		int i = 0;
 		int j = 0;
 		
-		while(i < candidateSolution.length() && i <= 9 &&  result != -3){
+		while(i < candidateSolution.length() && i <= 8 &&  result != -3){
 			for(j = 0; j < 9; j++){
 				if(candidateSolution.charAt(i) == candidateSolution.charAt(j)){
 					result = -3;
