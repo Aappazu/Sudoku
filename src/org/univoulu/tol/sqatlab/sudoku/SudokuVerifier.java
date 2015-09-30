@@ -7,7 +7,7 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	public static int charactersPositive(String candidateSolution){
+	public static int checkIfCharactersPositive(String candidateSolution){
 		
 		int result = 0;
 		int i = 0;

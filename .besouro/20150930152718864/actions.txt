@@ -112,3 +112,15 @@ EditAction 1443618639238 TestSudokuVerifier.java 642 2 4 2
 UnitTestCaseAction 1443618641086 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443618641086 TestSudokuVerifier FAIL
 EditAction 1443618642751 TestSudokuVerifier.java 643 2 4 2
+UnitTestCaseAction 1443618644308 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443618644309 TestSudokuVerifier OK
+RefactoringAction 1443618902751 TestSudokuVerifier.java ADD void checkIfSameDigitTwiceInRow() METHOD
+RefactoringAction 1443618952274 TestSudokuVerifier.java RENAME checkIfSameDigitTwiceInRow()=>void sameDigitNotTwiceInA() METHOD
+RefactoringAction 1443618953281 TestSudokuVerifier.java RENAME sameDigitNotTwiceInA()=>void sameDigitNotTwiceInARow() METHOD
+RefactoringAction 1443619237362 TestSudokuVerifier.java RENAME sameDigitNotTwiceInARow()=>void sameDigitNotTwiceInAGlobalRow() METHOD
+RefactoringAction 1443619251370 TestSudokuVerifier.java RENAME sameDigitNotTwiceInAGlobalRow()=>void sameDigitTwiceInAGlobalRow() METHOD
+RefactoringAction 1443619253879 TestSudokuVerifier.java RENAME sameDigitTwiceInAGlobalRow()=>void sameDigitNotTwiceInAGlobalRow() METHOD
+RefactoringAction 1443619304437 TestSudokuVerifier.java RENAME sameDigitNotTwiceInAGlobalRow()=>void sameDigitNotTwiceInGlobalRow() METHOD
+RefactoringAction 1443619350731 SudokuVerifier.java RENAME charactersPositive(String)=>static int checkIfcharactersPositive(String) METHOD
+RefactoringAction 1443619352735 SudokuVerifier.java RENAME checkIfcharactersPositive(String)=>static int checkIfCharactersPositive(String) METHOD
+EditAction 1443619354809 SudokuVerifier.java 557 2 5 0
